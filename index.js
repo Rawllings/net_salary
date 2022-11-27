@@ -8,7 +8,7 @@ function netSalary() {
         document.getElementById("net").innerHTML = `Your net salary is 0`
     }
    
-     // calculating the net salary of an employee earning below 24,000.
+     // calculating the net salary of an employee earning below 24,000 using  NHIF rate of 2.5% and NSSF rate of 6%.
 
     else if (salary < 24000){
         let tax = salary * 0.1;
@@ -20,7 +20,7 @@ function netSalary() {
         document.getElementById("net").innerHTML = `Your net salary is ${finSalary}`
     }
 
-     // calculating the net salary of an employee earning above 24,000 and below 32333. 
+     // calculating the net salary of an employee earning above 24,000 and below 32333 using  NHIF rate of 2.5% and NSSF rate of 6%. 
 
     else if (salary >= 24000 && salary < 32333 ){
         let tax = salary * 0.25;
@@ -32,7 +32,7 @@ function netSalary() {
         document.getElementById("net").innerHTML = `Your net salary is ${finSalary}`
     }
 
-     // calculating the net salary of an employee earning above 32333.
+     // calculating the net salary of an employee earning above 32333 using  NHIF rate of 2.5% and NSSF rate of 6%.
 
     else if (salary > 32333){
         let tax = salary * 0.3;
