@@ -13,7 +13,7 @@ CSS
 JavaScript
 
 ## How it run
-Input your score marks and get the grade
+Input your score Gross salary and get your Net salary
 
 ## Live link
 To get to the wab page use the LINK
